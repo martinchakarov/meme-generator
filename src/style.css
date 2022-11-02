@@ -1,21 +1,42 @@
 * {
   margin: 0px;
+  font-family: 'Inter', sans-serif;
 }
 
 .header {
   display: flex;
-  padding: 20px;
+  padding: 0px 20px;
   align-items: center;
   justify-content: space-between;
+  min-height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
 }
 
 .logo {
   display: flex;
+  align-items: center;
   gap: 10px;
+}
+
+.logo h1 {
+  font-family: 'Karla', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  color: #FFFFFF;
 }
 
 .logo--icon {
   max-width: 32px;
-  transform: scaleX(-1);
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #FFFFFF;
 }
 
